@@ -21,7 +21,7 @@ public class GmailTest {
 			driver.get("https://accounts.google.com/ServiceLogin?service=mail&continue=https://mail.google.com/mail/#identifier");
 			driver.findElement(By.xpath("//input[@ id='Email']")).sendKeys("vipulj451");
 			driver.findElement(By.xpath("//input[@ id='next' ]")).click();
-			driver.findElement(By.xpath("//input [@id='Passwd'] ")).sendKeys("cricketmatch");
+			driver.findElement(By.xpath("//input [@id='Passwd'] ")).sendKeys("cricketmatches");
 			driver.findElement(By.xpath("//input [@id='signIn']")).click();
 			System.out.println("current title"+driver.getTitle());
 			Assert.assertEquals("Gmai", driver.getTitle());
