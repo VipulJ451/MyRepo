@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="suites" parallel="methods">
+<tests>
+<test name="tests"> 
+<parameter name="browser" value="firefox"/>
+<classes>
+<class name="com.project.selenium.AssertTest"/>
+</classes>
+
+
+</test>
+
+
+</tests>
+</suite>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="suites" duration-ms="44727" started-at="2016-10-19T07:04:44Z" finished-at="2016-10-19T07:05:29Z">
+    <groups>
+    </groups>
+    <test name="tests" duration-ms="44727" started-at="2016-10-19T07:04:44Z" finished-at="2016-10-19T07:05:29Z">
+      <class name="com.project.selenium.AssertTest">
+        <test-method status="PASS" signature="testgoogle1()[pri:0, instance:com.project.selenium.AssertTest@58651fd0]" name="testgoogle1" duration-ms="44591" started-at="2016-10-19T12:34:44Z" finished-at="2016-10-19T12:35:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testgoogle1 -->
+        <test-method status="PASS" signature="testgoogle(java.lang.String)[pri:0, instance:com.project.selenium.AssertTest@58651fd0]" name="testgoogle" duration-ms="44696" started-at="2016-10-19T12:34:44Z" finished-at="2016-10-19T12:35:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testgoogle -->
+      </class> <!-- com.project.selenium.AssertTest -->
+    </test> <!-- tests -->
+  </suite> <!-- suites -->
+</testng-results>

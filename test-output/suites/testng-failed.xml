@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [suites]" parallel="methods">
+  <parameter name="browser" value="firefox"/>
+  <test name="tests(failed)" parallel="methods">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.project.selenium.AssertTest">
+        <methods>
+          <include name="testgoogle1"/>
+        </methods>
+      </class> <!-- com.project.selenium.AssertTest -->
+    </classes>
+  </test> <!-- tests(failed) -->
+</suite> <!-- Failed suite [suites] -->
